@@ -1,4 +1,4 @@
-# This file makes latency_watch a Python package
+from .profiler import LatencyWatch, TracingProfiler
 
-def hello():
-    print("Latency Watch Package Loaded")
+__version__ = "0.2.0"
+__all__ = ["LatencyWatch"]
